@@ -1,19 +1,22 @@
 //
 //  AppDelegate.swift
-//  BUDDHA4
+//  BUDDHA
 //
-//  Created by 片山義仁 on 2021/01/13.
+//  Created by 片山義仁 on 2019/11/20.
+//  Copyright © 2019 Neeza. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch
+       FirebaseApp.configure()
+      
         return true
     }
 

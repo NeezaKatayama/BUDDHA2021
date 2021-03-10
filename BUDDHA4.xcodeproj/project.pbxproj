@@ -3,18 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		374CF15425AF21A200FC59D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CF15325AF21A200FC59D4 /* AppDelegate.swift */; };
-		374CF15625AF21A200FC59D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CF15525AF21A200FC59D4 /* SceneDelegate.swift */; };
 		374CF15825AF21A200FC59D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CF15725AF21A200FC59D4 /* ViewController.swift */; };
 		374CF15B25AF21A200FC59D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374CF15925AF21A200FC59D4 /* Main.storyboard */; };
 		374CF15D25AF21A300FC59D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374CF15C25AF21A300FC59D4 /* Assets.xcassets */; };
 		374CF16025AF21A300FC59D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374CF15E25AF21A300FC59D4 /* LaunchScreen.storyboard */; };
 		374CF16B25AF21A300FC59D4 /* BUDDHA4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CF16A25AF21A300FC59D4 /* BUDDHA4Tests.swift */; };
 		374CF17625AF21A300FC59D4 /* BUDDHA4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CF17525AF21A300FC59D4 /* BUDDHA4UITests.swift */; };
+		377DDFE225AF25CE00DDF324 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFC625AF25AE00DDF324 /* DetailViewController.swift */; };
+		377DDFE325AF25CE00DDF324 /* MainChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFC725AF25AF00DDF324 /* MainChartsView.swift */; };
+		377DDFE425AF25CE00DDF324 /* SeparateViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFC825AF25B000DDF324 /* SeparateViewController1.swift */; };
+		377DDFE525AF25CE00DDF324 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFC925AF25B100DDF324 /* TimelineViewController.swift */; };
+		377DDFE625AF25CE00DDF324 /* ChoiceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFCA25AF25B300DDF324 /* ChoiceCollectionViewController.swift */; };
+		377DDFE825AF25CE00DDF324 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFCC25AF25B500DDF324 /* AppUser.swift */; };
+		377DDFEB25AF25CE00DDF324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFCF25AF25B900DDF324 /* SceneDelegate.swift */; };
+		377DDFEC25AF25CE00DDF324 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFD025AF25BA00DDF324 /* AccountViewController.swift */; };
+		377DDFED25AF25CE00DDF324 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFD125AF25BB00DDF324 /* HelpViewController.swift */; };
+		377DDFEE25AF25CE00DDF324 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFD225AF25BC00DDF324 /* PersonViewController.swift */; };
+		377DDFEF25AF25CE00DDF324 /* WayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFD325AF25BE00DDF324 /* WayViewController.swift */; };
+		377DDFF025AF25CE00DDF324 /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFD425AF25BF00DDF324 /* MyNavigationViewController.swift */; };
+		377DDFF125AF25CE00DDF324 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFD525AF25C000DDF324 /* Choice.swift */; };
+		377DDFF325AF25CE00DDF324 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 377DDFD725AF25C200DDF324 /* GoogleService-Info.plist */; };
+		377DDFF525AF25CE00DDF324 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFD925AF25C400DDF324 /* ChartsViewController.swift */; };
+		377DDFF725AF25CE00DDF324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFDB25AF25C700DDF324 /* AppDelegate.swift */; };
+		377DDFF825AF25CE00DDF324 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFDC25AF25C800DDF324 /* ChoiceViewController.swift */; };
+		377DDFF925AF25CE00DDF324 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFDD25AF25C900DDF324 /* Post.swift */; };
+		377DDFFA25AF25CE00DDF324 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFDE25AF25CA00DDF324 /* AddViewController.swift */; };
+		377DDFFD25AF25CE00DDF324 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DDFE125AF25CE00DDF324 /* CollectionViewCell.swift */; };
+		F859E63181266465BE0BA39B /* Pods_BUDDHA4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF02830EB192B4AFCB2740B /* Pods_BUDDHA4.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05FD703EFE2318DCA385FF7B /* Pods-BUDDHA4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHA4.debug.xcconfig"; path = "Target Support Files/Pods-BUDDHA4/Pods-BUDDHA4.debug.xcconfig"; sourceTree = "<group>"; };
 		374CF15025AF21A200FC59D4 /* BUDDHA4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUDDHA4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		374CF15325AF21A200FC59D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		374CF15525AF21A200FC59D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		374CF15725AF21A200FC59D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		374CF15A25AF21A200FC59D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		374CF15C25AF21A300FC59D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,28 @@
 		374CF17125AF21A300FC59D4 /* BUDDHA4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BUDDHA4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374CF17525AF21A300FC59D4 /* BUDDHA4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUDDHA4UITests.swift; sourceTree = "<group>"; };
 		374CF17725AF21A300FC59D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377DDFC625AF25AE00DDF324 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		377DDFC725AF25AF00DDF324 /* MainChartsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainChartsView.swift; sourceTree = "<group>"; };
+		377DDFC825AF25B000DDF324 /* SeparateViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparateViewController1.swift; sourceTree = "<group>"; };
+		377DDFC925AF25B100DDF324 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		377DDFCA25AF25B300DDF324 /* ChoiceCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceCollectionViewController.swift; sourceTree = "<group>"; };
+		377DDFCC25AF25B500DDF324 /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		377DDFCF25AF25B900DDF324 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		377DDFD025AF25BA00DDF324 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		377DDFD125AF25BB00DDF324 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		377DDFD225AF25BC00DDF324 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		377DDFD325AF25BE00DDF324 /* WayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WayViewController.swift; sourceTree = "<group>"; };
+		377DDFD425AF25BF00DDF324 /* MyNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
+		377DDFD525AF25C000DDF324 /* Choice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		377DDFD725AF25C200DDF324 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		377DDFD925AF25C400DDF324 /* ChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		377DDFDB25AF25C700DDF324 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377DDFDC25AF25C800DDF324 /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		377DDFDD25AF25C900DDF324 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		377DDFDE25AF25CA00DDF324 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		377DDFE125AF25CE00DDF324 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6750560544ABAB737DDDAC2A /* Pods-BUDDHA4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHA4.release.xcconfig"; path = "Target Support Files/Pods-BUDDHA4/Pods-BUDDHA4.release.xcconfig"; sourceTree = "<group>"; };
+		7FF02830EB192B4AFCB2740B /* Pods_BUDDHA4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUDDHA4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F859E63181266465BE0BA39B /* Pods_BUDDHA4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +117,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32F65665B00BDB82DA867B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FF02830EB192B4AFCB2740B /* Pods_BUDDHA4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3370885A48D39DC253A283A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05FD703EFE2318DCA385FF7B /* Pods-BUDDHA4.debug.xcconfig */,
+				6750560544ABAB737DDDAC2A /* Pods-BUDDHA4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		374CF14725AF21A100FC59D4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				374CF16925AF21A300FC59D4 /* BUDDHA4Tests */,
 				374CF17425AF21A300FC59D4 /* BUDDHA4UITests */,
 				374CF15125AF21A200FC59D4 /* Products */,
+				3370885A48D39DC253A283A0 /* Pods */,
+				32F65665B00BDB82DA867B85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +159,28 @@
 		374CF15225AF21A200FC59D4 /* BUDDHA4 */ = {
 			isa = PBXGroup;
 			children = (
-				374CF15325AF21A200FC59D4 /* AppDelegate.swift */,
-				374CF15525AF21A200FC59D4 /* SceneDelegate.swift */,
-				374CF15725AF21A200FC59D4 /* ViewController.swift */,
 				374CF15925AF21A200FC59D4 /* Main.storyboard */,
+				374CF15725AF21A200FC59D4 /* ViewController.swift */,
+				377DDFD025AF25BA00DDF324 /* AccountViewController.swift */,
+				377DDFDE25AF25CA00DDF324 /* AddViewController.swift */,
+				377DDFDB25AF25C700DDF324 /* AppDelegate.swift */,
+				377DDFCC25AF25B500DDF324 /* AppUser.swift */,
+				377DDFD925AF25C400DDF324 /* ChartsViewController.swift */,
+				377DDFD525AF25C000DDF324 /* Choice.swift */,
+				377DDFCA25AF25B300DDF324 /* ChoiceCollectionViewController.swift */,
+				377DDFDC25AF25C800DDF324 /* ChoiceViewController.swift */,
+				377DDFE125AF25CE00DDF324 /* CollectionViewCell.swift */,
+				377DDFC625AF25AE00DDF324 /* DetailViewController.swift */,
+				377DDFD725AF25C200DDF324 /* GoogleService-Info.plist */,
+				377DDFD125AF25BB00DDF324 /* HelpViewController.swift */,
+				377DDFC725AF25AF00DDF324 /* MainChartsView.swift */,
+				377DDFD425AF25BF00DDF324 /* MyNavigationViewController.swift */,
+				377DDFD225AF25BC00DDF324 /* PersonViewController.swift */,
+				377DDFDD25AF25C900DDF324 /* Post.swift */,
+				377DDFCF25AF25B900DDF324 /* SceneDelegate.swift */,
+				377DDFC825AF25B000DDF324 /* SeparateViewController1.swift */,
+				377DDFC925AF25B100DDF324 /* TimelineViewController.swift */,
+				377DDFD325AF25BE00DDF324 /* WayViewController.swift */,
 				374CF15C25AF21A300FC59D4 /* Assets.xcassets */,
 				374CF15E25AF21A300FC59D4 /* LaunchScreen.storyboard */,
 				374CF16125AF21A300FC59D4 /* Info.plist */,
@@ -135,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 374CF17A25AF21A300FC59D4 /* Build configuration list for PBXNativeTarget "BUDDHA4" */;
 			buildPhases = (
+				E34636739D74B01432C8D5D0 /* [CP] Check Pods Manifest.lock */,
 				374CF14C25AF21A200FC59D4 /* Sources */,
 				374CF14D25AF21A200FC59D4 /* Frameworks */,
 				374CF14E25AF21A200FC59D4 /* Resources */,
+				0AE76AD8CD756F4ABC18077B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374CF16025AF21A300FC59D4 /* LaunchScreen.storyboard in Resources */,
+				377DDFF325AF25CE00DDF324 /* GoogleService-Info.plist in Resources */,
 				374CF15D25AF21A300FC59D4 /* Assets.xcassets in Resources */,
 				374CF15B25AF21A200FC59D4 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +334,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AE76AD8CD756F4ABC18077B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BUDDHA4/Pods-BUDDHA4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BUDDHA4/Pods-BUDDHA4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BUDDHA4/Pods-BUDDHA4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E34636739D74B01432C8D5D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BUDDHA4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		374CF14C25AF21A200FC59D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377DDFF725AF25CE00DDF324 /* AppDelegate.swift in Sources */,
+				377DDFF025AF25CE00DDF324 /* MyNavigationViewController.swift in Sources */,
+				377DDFF525AF25CE00DDF324 /* ChartsViewController.swift in Sources */,
+				377DDFF925AF25CE00DDF324 /* Post.swift in Sources */,
+				377DDFE825AF25CE00DDF324 /* AppUser.swift in Sources */,
+				377DDFEC25AF25CE00DDF324 /* AccountViewController.swift in Sources */,
+				377DDFED25AF25CE00DDF324 /* HelpViewController.swift in Sources */,
+				377DDFFD25AF25CE00DDF324 /* CollectionViewCell.swift in Sources */,
+				377DDFEF25AF25CE00DDF324 /* WayViewController.swift in Sources */,
 				374CF15825AF21A200FC59D4 /* ViewController.swift in Sources */,
-				374CF15425AF21A200FC59D4 /* AppDelegate.swift in Sources */,
-				374CF15625AF21A200FC59D4 /* SceneDelegate.swift in Sources */,
+				377DDFE425AF25CE00DDF324 /* SeparateViewController1.swift in Sources */,
+				377DDFFA25AF25CE00DDF324 /* AddViewController.swift in Sources */,
+				377DDFE225AF25CE00DDF324 /* DetailViewController.swift in Sources */,
+				377DDFEB25AF25CE00DDF324 /* SceneDelegate.swift in Sources */,
+				377DDFF125AF25CE00DDF324 /* Choice.swift in Sources */,
+				377DDFE325AF25CE00DDF324 /* MainChartsView.swift in Sources */,
+				377DDFF825AF25CE00DDF324 /* ChoiceViewController.swift in Sources */,
+				377DDFE525AF25CE00DDF324 /* TimelineViewController.swift in Sources */,
+				377DDFE625AF25CE00DDF324 /* ChoiceCollectionViewController.swift in Sources */,
+				377DDFEE25AF25CE00DDF324 /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +573,12 @@
 		};
 		374CF17B25AF21A300FC59D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FD703EFE2318DCA385FF7B /* Pods-BUDDHA4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657539RL4M;
+				DEVELOPMENT_TEAM = 85H88YKB9T;
 				INFOPLIST_FILE = BUDDHA4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,11 +593,12 @@
 		};
 		374CF17C25AF21A300FC59D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6750560544ABAB737DDDAC2A /* Pods-BUDDHA4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657539RL4M;
+				DEVELOPMENT_TEAM = 85H88YKB9T;
 				INFOPLIST_FILE = BUDDHA4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
